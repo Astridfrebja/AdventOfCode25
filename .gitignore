@@ -1,0 +1,10 @@
+# Input files (personal AoC data)
+input*.txt
+
+# VS Code settings
+.vscode/
+
+# Java build output
+bin/
+out/
+
