@@ -11,7 +11,7 @@ public class Dag1 {
         int sum = 0; 
         int pos = 50; 
 
-        List<String> lines = Files.readAllLines(Path.of("input.txt")); 
+        List<String> lines = Files.readAllLines(Path.of("input_dag1.txt")); 
         
         for (String line : lines) { 
             int steps = Integer.parseInt(line.substring(1)); 
